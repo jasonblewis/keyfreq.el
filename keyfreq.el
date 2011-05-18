@@ -1,5 +1,5 @@
+;;; keyfreq.el --- track command frequencies
 ;; -*- coding: utf-8 -*-
-;; keyfreq.el -- track command frequencies
 ;;
 ;; Copyright 2009-2010 by David Capello
 ;; Copyright 2008 by Xah Lee
@@ -7,8 +7,14 @@
 ;; Copyright 2006 by Ryan Yeske
 ;;
 ;; Author: Ryan Yeske, Michal Nazarewicz (mina86/AT/mina86.com)
+;; URL: http://code.google.com/p/ergoemacs/source/browse/trunk/packages/keyfreq.el
+;; Version: 0.0.3
+;; Package-Requires: ((json "1.2"))
 ;; Maintainer: David Capello, Xah lee
 ;; Created: 2006
+;; 
+;; added to marmalade by Jason Lewis (jason at dickson dot st) 18/05/11
+;; avalaible on github https://github.com/jasonblewis/keyfreq.el 
 ;;
 ;; This program is free software; you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -485,3 +491,4 @@ value will take effect only after (re)enabling
 
 
 (provide 'keyfreq)
+;;; keyfreq.el ends here
